@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-primary: #F1F1F1;
+  --text-color: #777777
+}
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.facenter {
+  display: flex;
+  align-items: center;
+}
+
+.facb {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.fz74 {
+  font-weight: 300;
+  font-size: 7.4rem;
+  line-height: calc(55/74)
+}
+.fz45 {
+  font-weight: 500;
+  font-size: 4.5rem;
+  line-height: calc(53/45);
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+}
+.fz34 {
+  font-weight: 400;
+  font-size: 3.4rem;
+  line-height: calc(40/34);
+}
+.fz30 {
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: calc(55/30);
+  text-transform: capitalize;
+}
+.fz29 {
+  font-weight: 400;
+  font-size: 2.9rem;
+  line-height: calc(55/29);
+  text-transform: capitalize;
+}
+.fz26 {
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: calc(30/26);
+  text-transform: capitalize;
+}
+.fz18 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: calc(21/18);
+  text-transform: capitalize;
+}
+.fz16 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: calc(24/16);
+  text-transform: capitalize;
+}
+
+.fz16-fw600 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: calc(22/16);
+  text-transform: capitalize;
+}
+.fz16-fw500 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: calc(19/16);
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+}
+.fz15 {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: calc(20/15);
+  text-transform: capitalize;
+}
+.fz14 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: calc(24/14);
+}
+.fz14-fw600 {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: calc(19/14);
+  text-transform: capitalize;
+}
+.fz12 {
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: calc(16/12);
+}

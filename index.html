@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coral</title>
+  <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@300;400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__container facenter">
+        <div class="header__logo">
+          <a href="#">
+            <img src="./img/logo.svg" alt="">
+          </a>
+        </div>
+        <form class="header__form facenter">
+          <input type="text" class="header__input">
+          <a href="">
+            <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="7" cy="7" r="6" stroke="#0B0B0B" stroke-width="2"/>
+              <path d="M16 16L13 13" stroke="#0B0B0B" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </a>  
+        </form>
+        <div class="header__right facenter">
+          <div class="header__account facenter">
+            <a href="">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.7274 20.4471C19.2716 19.1713 18.2672 18.0439 16.8701 17.2399C15.4729 16.4358 13.7611 16 12 16C10.2389 16 8.52706 16.4358 7.12991 17.2399C5.73276 18.0439 4.72839 19.1713 4.27259 20.4471" stroke="#0B0B0B" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="12" cy="8" r="4" stroke="#0B0B0B" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <a href="" class="fz14">Account</a>
+          </div>
+          <div class="header__shoping facenter">
+            <a href="">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 12L8 8C8 5.79086 9.79086 4 12 4V4C14.2091 4 16 5.79086 16 8L16 12" stroke="#0B0B0B" stroke-width="2" stroke-linecap="round"/>
+                <path d="M3.69435 12.6678C3.83942 10.9269 3.91196 10.0565 4.48605 9.52824C5.06013 9 5.9336 9 7.68053 9H16.3195C18.0664 9 18.9399 9 19.514 9.52824C20.088 10.0565 20.1606 10.9269 20.3057 12.6678L20.8195 18.8339C20.904 19.8474 20.9462 20.3542 20.6491 20.6771C20.352 21 19.8435 21 18.8264 21H5.1736C4.15655 21 3.64802 21 3.35092 20.6771C3.05382 20.3542 3.09605 19.8474 3.18051 18.8339L3.69435 12.6678Z" stroke="#0B0B0B" stroke-width="2"/>
+              </svg>
+            </a>
+            <a href="" class="fz14">Shoping</a>
+          </div>
+        </div>
+        <div class="header__menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <path d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="menu">
+      <div class="container">
+        <ul class="menu__list fz16 facb">
+          <li class="menu__item"><a href="">Jewelry & Accessories</a></li>
+          <li class="menu__item"><a href="">Clothing & Shoes</a></li>
+          <li class="menu__item"><a href="">Home & Living</a></li>
+          <li class="menu__item"><a href="">Wedding & Party</a></li>
+          <li class="menu__item"><a href="">Toys & Entertainment</a></li>
+          <li class="menu__item"><a href="">Art & Collectibles</a></li>
+          <li class="menu__item"><a href="">Craft Supplies & Tools</a></li>
+        </ul>
+      </div>
+    </section>
+    <section class="banner">
+      <div class="container">
+        <div class="banner__container facenter">
+          <div class="banner__info">
+            <h1 class="fz74">Collections</h1>
+            <p class="fz30">you can explore ans shop many differnt    collection from various barands here.</p>
+            <button class="fz29 facenter">
+              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 15L10 10C10 7.23858 12.2386 5 15 5V5C17.7614 5 20 7.23858 20 10L20 15" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                <path d="M4.69435 14.9178C4.83942 13.1769 4.91196 12.3065 5.48605 11.7782C6.06013 11.25 6.9336 11.25 8.68053 11.25H21.3195C23.0664 11.25 23.9399 11.25 24.514 11.7782C25.088 12.3065 25.1606 13.1769 25.3057 14.9178L26.0695 24.0839C26.154 25.0974 26.1962 25.6042 25.8991 25.9271C25.602 26.25 25.0935 26.25 24.0764 26.25H5.9236C4.90655 26.25 4.39802 26.25 4.10092 25.9271C3.80382 25.6042 3.84605 25.0974 3.93051 24.0839L4.69435 14.9178Z" stroke="white" stroke-width="2"/>
+              </svg>                
+              shop now
+            </button>
+          </div>
+          <div class="banner__image">
+            <img src="./img/image-banner.svg" alt="">
+          </div>
+          <div class="banner__frame-left">
+            <img src="./img/Frame.svg" alt="">
+          </div>
+          <div class="banner__frame-right">
+            <img src="./img/Frame1.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="parner">
+      <div class="container">
+        <div class="parner__container facb">
+          <div><a href=""><img src="./img/parner/img-parner.jpg" alt=""></a></div>
+          <div><a href=""><img src="./img/parner/parner-furniture.jpg" alt=""></a></div>
+          <div><a href=""><img src="./img/parner/parner-golden.jpg" alt=""></a></div>
+          <div><a href=""><img src="./img/parner/parner-salva.jpg" alt=""></a></div>
+          <div><a href=""><img src="./img/parner/parner-travelLookbook.jpg" alt=""></a></div>
+        </div>
+      </div>
+    </section>
+    <section class="category">
+      <div class="container">
+        <div class="category__container facb">
+          <div class="category__primary">
+            <img src="./img/category/item-category.jpg" alt="">
+          </div>
+          <ul class="category__secondary d-flex">
+            <li class="category__item">
+              <a href="">
+                <img src="./img/category/item-category.jpg" alt="">
+              </a>
+            </li>
+            <li class="category__item">
+              <a href="">
+                <img src="./img/category/item-category2.jpg" alt="">
+              </a>
+            </li>
+            <li class="category__item">
+              <a href="">
+                <img src="./img/category/item-category3.jpg" alt="">
+              </a>
+            </li>
+            <li class="category__item">
+              <a href="">
+                <img src="./img/category/item-category1.jpg" alt="">
+              </a>
+            </li>
+          </ul>
+          <p class="fz34 category__desc">Explore new and popular styles</p>
+        </div>
+      </div>
+    </section>
+    <section class="product">
+      <div class="container">
+        <div class="product__container">
+          <h3 class="fz45 heading">new products</h3>
+          <div class="product__header facb">
+            <ul class="product__list fz16-fw600 facenter">
+              <li class="product__item product__item--active"><a href="">all products</a></li>
+              <li class="product__item"><a href="">t-shirt</a></li>
+              <li class="product__item"><a href="">hoodies</a></li>
+              <li class="product__item"><a href="">jacket</a></li>
+            </ul>
+            <button class="product__function fz16 facenter">
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.4369 1H1.56315C1.06351 1 0.811396 1.60623 1.16542 1.96026L5.5 6.29549V11.125C5.5 11.3085 5.58955 11.4805 5.73993 11.5858L7.61493 12.8979C7.98484 13.1568 8.5 12.8944 8.5 12.437V6.29549L12.8347 1.96026C13.188 1.60694 12.9376 1 12.4369 1Z" stroke="white"/>
+              </svg>                
+              filter
+            </button>
+          </div>
+          <div class="row product__content">
+            <div class="col xxl-3 xl-3 lg-4 md-6 sm-6 xs-12 content__item content__item-js">
+              <div class="content__image">
+                <a href=""><img src="./img/product/image-product4.jpg" alt=""></a>
+                <div class="content__hover facb"></div>
+              </div>
+              <h6 class="fz16-fw600"><a href="">Polarised Sunglasses</a></h6>
+              <div class="product__detail facb">
+                <p class="fz16"><a href="">Glasses</a></p>
+                <span class="fz16-fw600">$160.00</span>
+              </div>
+            </div>
+            <div class="col xxl-3 xl-3 lg-4 md-6 sm-6 xs-12 content__item content__item-js">
+              <div class="content__image">
+                <a href="">
+                  <img src="./img/product/image-product4.jpg" alt="">
+                </a>
+                <div class="content__hover facb"></div>
+              </div>
+              <h6 class="fz16-fw600"><a href="">Polarised Sunglasses</a></h6>
+              <div class="product__detail facb">
+                <p class="fz16"><a href="">Glasses</a></p>
+                <div class="content__price facenter">
+                  <span class="fz14-fw600 content--nosale">$364.00</span>
+                  <span class="fz16-fw600 content--sale">$155.00</span>
+                </div>
+              </div>
+              <span class="stickers content__sale fz12">sale</span>
+            </div>
+            <div class="col xxl-3 xl-3 lg-4 md-6 sm-6 xs-12 content__item content__item-js">
+              <div class="content__image">
+                <a href="">
+                  <img src="./img/product/image-product4.jpg" alt="">
+                </a>
+                <div class="content__hover facb"></div>
+              </div>
+              <h6 class="fz16-fw600"><a href="">Polarised Sunglasses</a></h6>
+              <div class="product__detail facb">
+                <p class="fz16"><a href="">Glasses</a></p>
+                <span class="fz16-fw600">$160.00</span>
+              </div>
+              <span class="stickers content__hot fz12">hot</span>
+            </div>
+            <div class="col xxl-3 xl-3 lg-4 md-6 sm-6 xs-12 content__item content__item-js">
+              <div class="content__image">
+                <a href="">
+                  <img src="./img/product/image-product4.jpg" alt="">
+                </a>
+                <div class="content__hover facb"></div>
+              </div>
+              <h6 class="fz16-fw600"><a href="">Polarised Sunglasses</a></h6>
+              <div class="product__detail facb">
+                <p class="fz16"><a href="">Glasses</a></p>
+                <span class="fz16-fw600">$160.00</span>
+              </div>
+            </div>
+            <div class="col xxl-3 xl-3 lg-4 md-6 sm-6 xs-12 content__item content__item-js">
+              <div class="content__image">
+                <a href="">
+                  <img src="./img/product/image-product4.jpg" alt="">
+                </a>
+                <div class="content__hover facb"></div>
+              </div>
+              <h6 class="fz16-fw600"><a href="">Polarised Sunglasses</a></h6>
+              <div class="product__detail facb">
+                <p class="fz16"><a href="">Glasses</a></p>
+                <span class="fz16-fw600">$160.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="brand-banner">
+      <div class="brand-banner__container">
+        <img src="./img/brand-banner/background.jpg" alt="">
+        <div class="brand-banner__logo">
+          <img src="./img/brand-banner/1024px-Zara_Logo1.svg" alt="">
+        </div>
+        <div class="brand-banner__info">
+          <div class="brand-banner__second-logo">
+            <img src="./img/brand-banner/1024px-Zara_Logo2.svg" alt="">
+          </div>
+          <p class="fz26">Lustrous yet understated. The new evening
+            wear collection exclusively offered at the
+            reopened Giorgio Armani boutique in Los
+            Angeles.
+          </p>
+          <button class="fz29">see collection</button>
+        </div>
+      </div>
+    </section>
+    <section class="sellers">
+      <div class="container">
+        <div class="sellers__container">
+            <h3 class="fz45 heading">Best sellers</h3>
+            <div class="product__header facb">
+              <ul class="product__list fz16-fw600 facenter">
+                <li class="product__item product__item--active"><a href="">all products</a></li>
+                <li class="product__item"><a href="">t-shirt</a></li>
+                <li class="product__item"><a href="">hoodies</a></li>
+                <li class="product__item"><a href="">jacket</a></li>
+              </ul>
+              <button class="product__function fz16 facenter">
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.4369 1H1.56315C1.06351 1 0.811396 1.60623 1.16542 1.96026L5.5 6.29549V11.125C5.5 11.3085 5.58955 11.4805 5.73993 11.5858L7.61493 12.8979C7.98484 13.1568 8.5 12.8944 8.5 12.437V6.29549L12.8347 1.96026C13.188 1.60694 12.9376 1 12.4369 1Z" stroke="white"/>
+                </svg>                
+                filter
+              </button>
+            </div>
+            <div class="row sellers__content">
+              <div class="col xxl-3 content__item">
+                <div class="content__image">
+                  <a href=""><img src="./img/product/image-product4.jpg" alt=""></a>
+                </div>
+                <h6 class="fz16-fw600"><a href="">Polarised Sunglasses</a></h6>
+                <div class="product__detail facb">
+                  <p class="fz16"><a href="">Glasses</a></p>
+                  <span class="fz16-fw600">$160.00</span>
+                </div>
+              </div>
+              <div class="col xxl-3 content__item">
+                <div class="content__image">
+                  <a href=""><img src="./img/product/image-product.jpg" alt=""></a>
+                </div>
+                <h6 class="fz16-fw600"><a href="">Nike Sportswear Futura Luxe</a></h6>
+                <div class="product__detail facb">
+                  <p class="fz16"><a href="">Bag</a></p>
+                  <span class="fz16-fw600">$130.00</span>
+                </div>
+              </div>
+              <div class="col xxl-3 content__item">
+                <div class="content__image">
+                  <a href=""><img src="./img/product/image-product1.jpg" alt=""></a>
+                </div>
+                <h6 class="fz16-fw600"><a href="">Geometric print Scarf</a></h6>
+                <div class="product__detail facb">
+                  <p class="fz16"><a href="">scarf</a></p>
+                  <span class="fz16-fw600">$53.00</span>
+                </div>
+              </div>
+              <div class="col xxl-3 content__item">
+                <div class="content__image">
+                  <a href=""><img src="./img/product/image-product2.jpg" alt=""></a>
+                </div>
+                <h6 class="fz16-fw600"><a href="">Yellow Reserved Hoodie</a></h6>
+                <div class="product__detail facb">
+                  <p class="fz16"><a href="">Dress</a></p>
+                  <div class="content__price facenter">
+                    <span class="fz14-fw600 content--nosale">$364.00</span>
+                    <span class="fz16-fw600 content--sale">$155.00</span>
+                  </div>
+                </div>
+                <span class="stickers content__sale fz12">sale</span>
+              </div>
+              <div class="col xxl-3 content__item">
+                <div class="content__image">
+                  <a href=""><img src="./img/product/image-product7.jpg" alt=""></a>
+                </div>
+                <h6 class="fz16-fw600"><a href="">Basic Dress Green</a></h6>
+                <div class="product__detail facb">
+                  <p class="fz16"><a href="">Dress</a></p>
+                  <span class="fz16-fw600">$236.00</span>
+                </div>
+                <span class="stickers content__hot fz12">hot</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section class="follow">
+      <div class="container">
+        <div class="follow__container">
+          <h3 class="fz45 heading heading-header">Follow products and discounts on Instagram</h3>
+          <ul class="follow__content facb">
+            <li class="follow__item">
+              <img src="./img/follow/follow4.jpg" alt="">
+              <div class="follow--active flex-center">
+                <a href="">
+                  <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.0047 10.2317C15.0455 10.2317 10.2388 15.0395 10.2388 21C10.2388 26.9605 15.0455 31.7683 21.0047 31.7683C26.9639 31.7683 31.7706 26.9605 31.7706 21C31.7706 15.0395 26.9639 10.2317 21.0047 10.2317ZM21.0047 28.0008C17.1537 28.0008 14.0055 24.8612 14.0055 21C14.0055 17.1388 17.1443 13.9992 21.0047 13.9992C24.865 13.9992 28.0039 17.1388 28.0039 21C28.0039 24.8612 24.8557 28.0008 21.0047 28.0008ZM34.722 9.79125C34.722 11.1877 33.5977 12.3029 32.2109 12.3029C30.8148 12.3029 29.6998 11.1783 29.6998 9.79125C29.6998 8.40422 30.8242 7.27959 32.2109 7.27959C33.5977 7.27959 34.722 8.40422 34.722 9.79125ZM41.8524 12.3404C41.6931 8.9759 40.9248 5.99565 38.4606 3.54022C36.0057 1.08479 33.0261 0.3163 29.6624 0.147607C26.1955 -0.0492023 15.8045 -0.0492023 12.3376 0.147607C8.98327 0.306928 6.00368 1.07542 3.53943 3.53085C1.07518 5.98628 0.31623 8.96653 0.147574 12.331C-0.0491913 15.7986 -0.0491913 26.192 0.147574 29.6596C0.30686 33.0241 1.07518 36.0044 3.53943 38.4598C6.00368 40.9152 8.9739 41.6837 12.3376 41.8524C15.8045 42.0492 26.1955 42.0492 29.6624 41.8524C33.0261 41.6931 36.0057 40.9246 38.4606 38.4598C40.9154 36.0044 41.6838 33.0241 41.8524 29.6596C42.0492 26.192 42.0492 15.808 41.8524 12.3404ZM37.3737 33.3802C36.6428 35.2171 35.228 36.6323 33.3822 37.3726C30.6181 38.4692 24.0592 38.2161 21.0047 38.2161C17.9501 38.2161 11.3819 38.4598 8.62722 37.3726C6.79074 36.6416 5.37591 35.2265 4.63569 33.3802C3.53943 30.6155 3.79242 24.0552 3.79242 21C3.79242 17.9448 3.5488 11.3751 4.63569 8.61977C5.36654 6.78289 6.78137 5.36773 8.62722 4.62736C11.3913 3.53085 17.9501 3.78389 21.0047 3.78389C24.0592 3.78389 30.6274 3.54022 33.3822 4.62736C35.2186 5.35836 36.6335 6.77351 37.3737 8.61977C38.4699 11.3845 38.217 17.9448 38.217 21C38.217 24.0552 38.4699 30.6249 37.3737 33.3802Z" fill="white"/>
+                    </svg>                                      
+                </a>
+              </div>
+            </li>
+            <li class="follow__item">
+              <img src="./img/follow/follow5.jpg" alt="">
+              <div class="follow--active flex-center">
+                <a href="">
+                  <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.0047 10.2317C15.0455 10.2317 10.2388 15.0395 10.2388 21C10.2388 26.9605 15.0455 31.7683 21.0047 31.7683C26.9639 31.7683 31.7706 26.9605 31.7706 21C31.7706 15.0395 26.9639 10.2317 21.0047 10.2317ZM21.0047 28.0008C17.1537 28.0008 14.0055 24.8612 14.0055 21C14.0055 17.1388 17.1443 13.9992 21.0047 13.9992C24.865 13.9992 28.0039 17.1388 28.0039 21C28.0039 24.8612 24.8557 28.0008 21.0047 28.0008ZM34.722 9.79125C34.722 11.1877 33.5977 12.3029 32.2109 12.3029C30.8148 12.3029 29.6998 11.1783 29.6998 9.79125C29.6998 8.40422 30.8242 7.27959 32.2109 7.27959C33.5977 7.27959 34.722 8.40422 34.722 9.79125ZM41.8524 12.3404C41.6931 8.9759 40.9248 5.99565 38.4606 3.54022C36.0057 1.08479 33.0261 0.3163 29.6624 0.147607C26.1955 -0.0492023 15.8045 -0.0492023 12.3376 0.147607C8.98327 0.306928 6.00368 1.07542 3.53943 3.53085C1.07518 5.98628 0.31623 8.96653 0.147574 12.331C-0.0491913 15.7986 -0.0491913 26.192 0.147574 29.6596C0.30686 33.0241 1.07518 36.0044 3.53943 38.4598C6.00368 40.9152 8.9739 41.6837 12.3376 41.8524C15.8045 42.0492 26.1955 42.0492 29.6624 41.8524C33.0261 41.6931 36.0057 40.9246 38.4606 38.4598C40.9154 36.0044 41.6838 33.0241 41.8524 29.6596C42.0492 26.192 42.0492 15.808 41.8524 12.3404ZM37.3737 33.3802C36.6428 35.2171 35.228 36.6323 33.3822 37.3726C30.6181 38.4692 24.0592 38.2161 21.0047 38.2161C17.9501 38.2161 11.3819 38.4598 8.62722 37.3726C6.79074 36.6416 5.37591 35.2265 4.63569 33.3802C3.53943 30.6155 3.79242 24.0552 3.79242 21C3.79242 17.9448 3.5488 11.3751 4.63569 8.61977C5.36654 6.78289 6.78137 5.36773 8.62722 4.62736C11.3913 3.53085 17.9501 3.78389 21.0047 3.78389C24.0592 3.78389 30.6274 3.54022 33.3822 4.62736C35.2186 5.35836 36.6335 6.77351 37.3737 8.61977C38.4699 11.3845 38.217 17.9448 38.217 21C38.217 24.0552 38.4699 30.6249 37.3737 33.3802Z" fill="white"/>
+                    </svg>                                      
+                </a>
+              </div>
+            </li>
+            <li class="follow__item">
+              <img src="./img/follow/follow6.jpg" alt="">
+              <div class="follow--active flex-center">
+                <a href="">
+                  <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.0047 10.2317C15.0455 10.2317 10.2388 15.0395 10.2388 21C10.2388 26.9605 15.0455 31.7683 21.0047 31.7683C26.9639 31.7683 31.7706 26.9605 31.7706 21C31.7706 15.0395 26.9639 10.2317 21.0047 10.2317ZM21.0047 28.0008C17.1537 28.0008 14.0055 24.8612 14.0055 21C14.0055 17.1388 17.1443 13.9992 21.0047 13.9992C24.865 13.9992 28.0039 17.1388 28.0039 21C28.0039 24.8612 24.8557 28.0008 21.0047 28.0008ZM34.722 9.79125C34.722 11.1877 33.5977 12.3029 32.2109 12.3029C30.8148 12.3029 29.6998 11.1783 29.6998 9.79125C29.6998 8.40422 30.8242 7.27959 32.2109 7.27959C33.5977 7.27959 34.722 8.40422 34.722 9.79125ZM41.8524 12.3404C41.6931 8.9759 40.9248 5.99565 38.4606 3.54022C36.0057 1.08479 33.0261 0.3163 29.6624 0.147607C26.1955 -0.0492023 15.8045 -0.0492023 12.3376 0.147607C8.98327 0.306928 6.00368 1.07542 3.53943 3.53085C1.07518 5.98628 0.31623 8.96653 0.147574 12.331C-0.0491913 15.7986 -0.0491913 26.192 0.147574 29.6596C0.30686 33.0241 1.07518 36.0044 3.53943 38.4598C6.00368 40.9152 8.9739 41.6837 12.3376 41.8524C15.8045 42.0492 26.1955 42.0492 29.6624 41.8524C33.0261 41.6931 36.0057 40.9246 38.4606 38.4598C40.9154 36.0044 41.6838 33.0241 41.8524 29.6596C42.0492 26.192 42.0492 15.808 41.8524 12.3404ZM37.3737 33.3802C36.6428 35.2171 35.228 36.6323 33.3822 37.3726C30.6181 38.4692 24.0592 38.2161 21.0047 38.2161C17.9501 38.2161 11.3819 38.4598 8.62722 37.3726C6.79074 36.6416 5.37591 35.2265 4.63569 33.3802C3.53943 30.6155 3.79242 24.0552 3.79242 21C3.79242 17.9448 3.5488 11.3751 4.63569 8.61977C5.36654 6.78289 6.78137 5.36773 8.62722 4.62736C11.3913 3.53085 17.9501 3.78389 21.0047 3.78389C24.0592 3.78389 30.6274 3.54022 33.3822 4.62736C35.2186 5.35836 36.6335 6.77351 37.3737 8.61977C38.4699 11.3845 38.217 17.9448 38.217 21C38.217 24.0552 38.4699 30.6249 37.3737 33.3802Z" fill="white"/>
+                    </svg>                                      
+                </a>
+              </div>
+            </li>
+            <li class="follow__item">
+              <img src="./img/follow/follow1.jpg" alt="">
+              <div class="follow--active flex-center">
+                <a href="">
+                  <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.0047 10.2317C15.0455 10.2317 10.2388 15.0395 10.2388 21C10.2388 26.9605 15.0455 31.7683 21.0047 31.7683C26.9639 31.7683 31.7706 26.9605 31.7706 21C31.7706 15.0395 26.9639 10.2317 21.0047 10.2317ZM21.0047 28.0008C17.1537 28.0008 14.0055 24.8612 14.0055 21C14.0055 17.1388 17.1443 13.9992 21.0047 13.9992C24.865 13.9992 28.0039 17.1388 28.0039 21C28.0039 24.8612 24.8557 28.0008 21.0047 28.0008ZM34.722 9.79125C34.722 11.1877 33.5977 12.3029 32.2109 12.3029C30.8148 12.3029 29.6998 11.1783 29.6998 9.79125C29.6998 8.40422 30.8242 7.27959 32.2109 7.27959C33.5977 7.27959 34.722 8.40422 34.722 9.79125ZM41.8524 12.3404C41.6931 8.9759 40.9248 5.99565 38.4606 3.54022C36.0057 1.08479 33.0261 0.3163 29.6624 0.147607C26.1955 -0.0492023 15.8045 -0.0492023 12.3376 0.147607C8.98327 0.306928 6.00368 1.07542 3.53943 3.53085C1.07518 5.98628 0.31623 8.96653 0.147574 12.331C-0.0491913 15.7986 -0.0491913 26.192 0.147574 29.6596C0.30686 33.0241 1.07518 36.0044 3.53943 38.4598C6.00368 40.9152 8.9739 41.6837 12.3376 41.8524C15.8045 42.0492 26.1955 42.0492 29.6624 41.8524C33.0261 41.6931 36.0057 40.9246 38.4606 38.4598C40.9154 36.0044 41.6838 33.0241 41.8524 29.6596C42.0492 26.192 42.0492 15.808 41.8524 12.3404ZM37.3737 33.3802C36.6428 35.2171 35.228 36.6323 33.3822 37.3726C30.6181 38.4692 24.0592 38.2161 21.0047 38.2161C17.9501 38.2161 11.3819 38.4598 8.62722 37.3726C6.79074 36.6416 5.37591 35.2265 4.63569 33.3802C3.53943 30.6155 3.79242 24.0552 3.79242 21C3.79242 17.9448 3.5488 11.3751 4.63569 8.61977C5.36654 6.78289 6.78137 5.36773 8.62722 4.62736C11.3913 3.53085 17.9501 3.78389 21.0047 3.78389C24.0592 3.78389 30.6274 3.54022 33.3822 4.62736C35.2186 5.35836 36.6335 6.77351 37.3737 8.61977C38.4699 11.3845 38.217 17.9448 38.217 21C38.217 24.0552 38.4699 30.6249 37.3737 33.3802Z" fill="white"/>
+                    </svg>                                      
+                </a>
+              </div>
+            </li>
+            <li class="follow__item">
+              <img src="./img/follow/follow2.jpg" alt="">
+              <div class="follow--active flex-center">
+                <a href="">
+                  <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.0047 10.2317C15.0455 10.2317 10.2388 15.0395 10.2388 21C10.2388 26.9605 15.0455 31.7683 21.0047 31.7683C26.9639 31.7683 31.7706 26.9605 31.7706 21C31.7706 15.0395 26.9639 10.2317 21.0047 10.2317ZM21.0047 28.0008C17.1537 28.0008 14.0055 24.8612 14.0055 21C14.0055 17.1388 17.1443 13.9992 21.0047 13.9992C24.865 13.9992 28.0039 17.1388 28.0039 21C28.0039 24.8612 24.8557 28.0008 21.0047 28.0008ZM34.722 9.79125C34.722 11.1877 33.5977 12.3029 32.2109 12.3029C30.8148 12.3029 29.6998 11.1783 29.6998 9.79125C29.6998 8.40422 30.8242 7.27959 32.2109 7.27959C33.5977 7.27959 34.722 8.40422 34.722 9.79125ZM41.8524 12.3404C41.6931 8.9759 40.9248 5.99565 38.4606 3.54022C36.0057 1.08479 33.0261 0.3163 29.6624 0.147607C26.1955 -0.0492023 15.8045 -0.0492023 12.3376 0.147607C8.98327 0.306928 6.00368 1.07542 3.53943 3.53085C1.07518 5.98628 0.31623 8.96653 0.147574 12.331C-0.0491913 15.7986 -0.0491913 26.192 0.147574 29.6596C0.30686 33.0241 1.07518 36.0044 3.53943 38.4598C6.00368 40.9152 8.9739 41.6837 12.3376 41.8524C15.8045 42.0492 26.1955 42.0492 29.6624 41.8524C33.0261 41.6931 36.0057 40.9246 38.4606 38.4598C40.9154 36.0044 41.6838 33.0241 41.8524 29.6596C42.0492 26.192 42.0492 15.808 41.8524 12.3404ZM37.3737 33.3802C36.6428 35.2171 35.228 36.6323 33.3822 37.3726C30.6181 38.4692 24.0592 38.2161 21.0047 38.2161C17.9501 38.2161 11.3819 38.4598 8.62722 37.3726C6.79074 36.6416 5.37591 35.2265 4.63569 33.3802C3.53943 30.6155 3.79242 24.0552 3.79242 21C3.79242 17.9448 3.5488 11.3751 4.63569 8.61977C5.36654 6.78289 6.78137 5.36773 8.62722 4.62736C11.3913 3.53085 17.9501 3.78389 21.0047 3.78389C24.0592 3.78389 30.6274 3.54022 33.3822 4.62736C35.2186 5.35836 36.6335 6.77351 37.3737 8.61977C38.4699 11.3845 38.217 17.9448 38.217 21C38.217 24.0552 38.4699 30.6249 37.3737 33.3802Z" fill="white"/>
+                    </svg>                                      
+                </a>
+              </div>
+            </li>
+            <li class="follow__item">
+              <img src="./img/follow/follow3.jpg" alt="">
+              <div class="follow--active flex-center">
+                <a href="">
+                  <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.0047 10.2317C15.0455 10.2317 10.2388 15.0395 10.2388 21C10.2388 26.9605 15.0455 31.7683 21.0047 31.7683C26.9639 31.7683 31.7706 26.9605 31.7706 21C31.7706 15.0395 26.9639 10.2317 21.0047 10.2317ZM21.0047 28.0008C17.1537 28.0008 14.0055 24.8612 14.0055 21C14.0055 17.1388 17.1443 13.9992 21.0047 13.9992C24.865 13.9992 28.0039 17.1388 28.0039 21C28.0039 24.8612 24.8557 28.0008 21.0047 28.0008ZM34.722 9.79125C34.722 11.1877 33.5977 12.3029 32.2109 12.3029C30.8148 12.3029 29.6998 11.1783 29.6998 9.79125C29.6998 8.40422 30.8242 7.27959 32.2109 7.27959C33.5977 7.27959 34.722 8.40422 34.722 9.79125ZM41.8524 12.3404C41.6931 8.9759 40.9248 5.99565 38.4606 3.54022C36.0057 1.08479 33.0261 0.3163 29.6624 0.147607C26.1955 -0.0492023 15.8045 -0.0492023 12.3376 0.147607C8.98327 0.306928 6.00368 1.07542 3.53943 3.53085C1.07518 5.98628 0.31623 8.96653 0.147574 12.331C-0.0491913 15.7986 -0.0491913 26.192 0.147574 29.6596C0.30686 33.0241 1.07518 36.0044 3.53943 38.4598C6.00368 40.9152 8.9739 41.6837 12.3376 41.8524C15.8045 42.0492 26.1955 42.0492 29.6624 41.8524C33.0261 41.6931 36.0057 40.9246 38.4606 38.4598C40.9154 36.0044 41.6838 33.0241 41.8524 29.6596C42.0492 26.192 42.0492 15.808 41.8524 12.3404ZM37.3737 33.3802C36.6428 35.2171 35.228 36.6323 33.3822 37.3726C30.6181 38.4692 24.0592 38.2161 21.0047 38.2161C17.9501 38.2161 11.3819 38.4598 8.62722 37.3726C6.79074 36.6416 5.37591 35.2265 4.63569 33.3802C3.53943 30.6155 3.79242 24.0552 3.79242 21C3.79242 17.9448 3.5488 11.3751 4.63569 8.61977C5.36654 6.78289 6.78137 5.36773 8.62722 4.62736C11.3913 3.53085 17.9501 3.78389 21.0047 3.78389C24.0592 3.78389 30.6274 3.54022 33.3822 4.62736C35.2186 5.35836 36.6335 6.77351 37.3737 8.61977C38.4699 11.3845 38.217 17.9448 38.217 21C38.217 24.0552 38.4699 30.6249 37.3737 33.3802Z" fill="white"/>
+                    </svg>                                      
+                </a>
+              </div>
+            </li>
+          </ul>
+          <h3 class="fz45 heading heading-footer">Or subscribe to the newsletter</h3>
+          <form class="follow__form facenter">
+            <input type="text" placeholder="Email address..." class="fz16-fw600">
+            <button class="fz16-fw600">SUBMIT</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__container d-flex">
+        <div class="footer__info">
+          <img src="./img/logo.svg" alt="">
+          <p class="fz15">Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua</p>
+          <div class="footer__social facenter">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 8C16 3.6 12.4 0 8 0C3.6 0 0 3.6 0 8C0 12 2.9 15.3 6.7 15.9V10.3H4.7V8H6.7V6.2C6.7 4.2 7.9 3.1 9.7 3.1C10.6 3.1 11.5 3.3 11.5 3.3V5.3H10.5C9.5 5.3 9.2 5.9 9.2 6.5V8H11.4L11 10.3H9.1V16C13.1 15.4 16 12 16 8Z" fill="black"/>
+              </svg>
+              <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 2C15.4 2.3 14.8 2.4 14.1 2.5C14.8 2.1 15.3 1.5 15.5 0.7C14.9 1.1 14.2 1.3 13.4 1.5C12.8 0.9 11.9 0.5 11 0.5C8.9 0.5 7.3 2.5 7.8 4.5C5.1 4.4 2.7 3.1 1 1.1C0.1 2.6 0.6 4.5 2 5.5C1.5 5.5 1 5.3 0.5 5.1C0.5 6.6 1.6 8 3.1 8.4C2.6 8.5 2.1 8.6 1.6 8.5C2 9.8 3.2 10.8 4.7 10.8C3.5 11.7 1.7 12.2 0 12C1.5 12.9 3.2 13.5 5 13.5C11.1 13.5 14.5 8.4 14.3 3.7C15 3.3 15.6 2.7 16 2Z" fill="black"/>
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.60001 16H0.199997V5.3H3.60001V16ZM1.9 3.8C0.800002 3.8 0 3 0 1.9C0 0.8 0.900002 0 1.9 0C3 0 3.8 0.8 3.8 1.9C3.8 3 3 3.8 1.9 3.8ZM16 16H12.6V10.2C12.6 8.5 11.9 8 10.9 8C9.89999 8 8.89999 8.8 8.89999 10.3V16H5.5V5.3H8.7V6.8C9 6.1 10.2 5 11.9 5C13.8 5 15.8 6.1 15.8 9.4V16H16Z" fill="black"/>
+                  </svg>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8 0C3.584 0 0 3.584 0 8C0 12.416 3.584 16 8 16C12.4 16 16 12.416 16 8C16 3.584 12.4 0 8 0ZM13.28 3.68C14.24 4.848 14.8 6.32 14.832 7.936C14.608 7.888 12.352 7.44 10.08 7.712C10.032 7.6 9.984 7.472 9.936 7.36C9.792 7.024 9.648 6.688 9.488 6.368C11.984 5.36 13.136 3.872 13.28 3.68ZM8 1.184C9.728 1.184 11.328 1.84 12.528 2.896C12.4 3.072 11.376 4.448 8.944 5.36C7.824 3.296 6.576 1.616 6.4 1.36C6.912 1.248 7.44 1.184 8 1.184ZM5.088 1.824C5.264 2.064 6.48 3.76 7.616 5.776C4.416 6.624 1.6 6.608 1.296 6.608C1.76 4.48 3.184 2.72 5.088 1.824ZM1.168 8.016C1.168 7.952 1.168 7.872 1.168 7.808C1.456 7.824 4.784 7.856 8.192 6.832C8.384 7.216 8.576 7.6 8.752 8C8.672 8.032 8.576 8.048 8.48 8.08C4.96 9.216 3.088 12.32 2.928 12.576C1.824 11.36 1.168 9.76 1.168 8.016ZM8 14.832C6.416 14.832 4.96 14.288 3.808 13.392C3.936 13.136 5.312 10.464 9.168 9.12C9.184 9.104 9.2 9.104 9.216 9.104C10.176 11.6 10.576 13.68 10.672 14.288C9.856 14.64 8.944 14.832 8 14.832ZM11.808 13.664C11.744 13.248 11.376 11.248 10.48 8.8C12.624 8.464 14.496 9.024 14.736 9.088C14.432 10.992 13.344 12.64 11.808 13.664Z" fill="black"/>
+                    </svg>
+          </div>
+        </div>
+        <div class="footer__content d-flex">
+          <div class="footer__catalog">
+            <h6 class="fz16-fw500"><a href="">CATALOG</a></h6>
+            <ul class="footer__list fz14 flex-col">
+              <li class="footer__item"><a href="">Necklaces</a></li>
+              <li class="footer__item"><a href="">hoodies</a></li>
+              <li class="footer__item"><a href="">Jewelry Box</a></li>
+              <li class="footer__item"><a href="">t-shirt</a></li>
+              <li class="footer__item"><a href="">jacket</a></li>
+            </ul>
+          </div>
+          <div class="footer__about-us">
+            <h6 class="fz16-fw500"><a href="">ABOUT US</a></h6>
+            <ul class="footer__list fz14 flex-col">
+              <li class="footer__item"><a href="">Our Producers</a></li>
+              <li class="footer__item"><a href="">Sitemap</a></li>
+              <li class="footer__item"><a href="">FAQ</a></li>
+              <li class="footer__item"><a href="">About Us</a></li>
+              <li class="footer__item"><a href="">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="footer__customer-services">
+            <h6 class="fz16-fw500"><a href="">CUSTOMER SERVICES</a></h6>
+            <ul class="footer__list fz14 flex-col">
+              <li class="footer__item"><a href="">Contact Us</a></li>
+              <li class="footer__item"><a href="">Track Your Order</a></li>
+              <li class="footer__item"><a href="">Product Care & Repair</a></li>
+              <li class="footer__item"><a href="">Book an Appointment</a></li>
+              <li class="footer__item"><a href="">Shipping & Returns</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__payment">
+      <div class="container">
+        <div class="payment__container facb">
+          <p class="fz14">© 2022 Coral , Inc.</p>
+          <div class="payment__content facenter">
+            <img src="./img/footer/icons_payment.svg" alt="">
+          </div>
+          <span class="fz12 facenter">
+            Scroll to top
+            <svg width="10" height="13" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1.35355 6.0203C1.15829 6.21556 0.841709 6.21556 0.646447 6.0203C0.451185 5.82504 0.451185 5.50846 0.646447 5.3132L1.35355 6.0203ZM5 1.66675L4.64645 1.31319L5 0.959641L5.35355 1.31319L5 1.66675ZM9.35355 5.31319C9.54881 5.50846 9.54881 5.82504 9.35355 6.0203C9.15829 6.21556 8.84171 6.21556 8.64645 6.0203L9.35355 5.31319ZM5.5 11.6667C5.5 11.9429 5.27614 12.1667 5 12.1667C4.72386 12.1667 4.5 11.9429 4.5 11.6667L5.5 11.6667ZM0.646447 5.3132L4.64645 1.31319L5.35355 2.0203L1.35355 6.0203L0.646447 5.3132ZM5.35355 1.31319L9.35355 5.31319L8.64645 6.0203L4.64645 2.0203L5.35355 1.31319ZM5.5 1.66675L5.5 11.6667L4.5 11.6667L4.5 1.66675L5.5 1.66675Z" fill="white"/>
+              </svg>
+              
+          </span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="./js/slick.js"></script>
+</body>
+</html>
