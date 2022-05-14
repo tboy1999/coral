@@ -212,6 +212,9 @@
   .footer__container {
     padding: 20px 0
   }
+  .stickers {
+    left: -2px;
+  } 
   .stickers::after {
     top: 19px
   }
