@@ -74,10 +74,8 @@ const html = `
 `
 const contentItems = document.querySelectorAll(".content__item-js")
 const contentHovers = document.querySelectorAll(".content__hover")
-console.log(contentItems);
 contentItems.forEach((contentItem, index) => {
   contentItem.onmouseover = function() {
-    console.log("asd");
     contentHovers[index].innerHTML= html
   }
 })
@@ -94,3 +92,15 @@ const headerMenu = document.querySelector(".header__menu")
 headerMenu.onclick = () => {
   document.querySelector(".header__right").classList.toggle("header__right--active")
 }
+
+const search = document.querySelector(".header__form > a")
+const input = document.querySelector(".header__input")
+search.onclick = (e) => {
+  if (input.value == "") {
+    e.preventDefault()
+    input.style.width = "100px"
+    input.style.visibility = "visible"
+  } 
+
+}
+console.log(input.value);

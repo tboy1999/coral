@@ -38,6 +38,7 @@
     flex-wrap: nowrap;
     padding-top: 30px;
     overflow-x: auto;
+    overflow-y: hidden;
     flex: 1;
     gap: 20px;
     
